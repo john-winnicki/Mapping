@@ -28,6 +28,8 @@ while(True):
 	if(len(links)==temp): break
 	else: x += 1
 
+for link in links: print(link)
+
 print(len(links))
 
 browser = webdriver.Chrome()
